@@ -18,11 +18,10 @@
           ( (equal? s (car lst)) (cdr lst) ) ;; first item is it
           ( else (cons (car lst) (remove-first s (cdr lst)))))))
 
-
-
-
-
-
+(remove-first 'a '(b a c a))
+(remove-first 'a '(a c a))
+(remove-first 'a '())
+(remove-first 'd '(b a c a))
 
 
 
