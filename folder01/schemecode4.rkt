@@ -8,8 +8,11 @@
               (gen-lazy-list
                         (+ start 1) stop))))))
 
-(gen-lazy-list 1 3)
-(car (gen-lazy-list 1 3))
-(cdr (gen-lazy-list 1 3))
-((cdr (gen-lazy-list 1 3)))
-(car ((cdr (gen-lazy-list 1 3))))
+(define ll (gen-lazy-list 1 3))
+(car ll)
+(cdr ll)
+((cdr ll))
+(car ((cdr ll)))
+((cdr ((cdr ll))))
+(car ((cdr ((cdr ll)))))
+
