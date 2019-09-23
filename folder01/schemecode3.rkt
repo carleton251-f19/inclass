@@ -3,7 +3,7 @@
   (lambda (old new input)
     (cond ((null? input) '())
           ((list? input)  .............)
-          ((equals?  ..... )    ......)
+          ((equal? old input) new)
           (else    .......))))
 
 (subst 'b 'a '((b c) (b () d)))
