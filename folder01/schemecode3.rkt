@@ -21,12 +21,10 @@
     (cond ((null? input) '())
 
           ((list? input)
-           (cons
-            (let ((firstone (subst old new (car input)))
-                  (otherones (subst old new (cdr input))))
-              (cons firstone otherones))))
-            
-            
+            (let ((firstone (subst2 old new (car input)))
+                  (otherones (subst2 old new (cdr input))))
+              (cons firstone otherones)))
+                      
 
           ((equal? old input) new)
           (else input))))
