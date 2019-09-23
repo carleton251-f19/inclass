@@ -16,6 +16,8 @@
 (subst 'b 'a '(d (b c) (b () d)))
 (subst 'b 'a 'b)
 
+;; might work, just showing for style. Style over
+;; substance.
 (define subst2
   (lambda (old new input)
     (cond ((null? input) '())
