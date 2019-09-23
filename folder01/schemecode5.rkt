@@ -11,4 +11,11 @@
 
 (define subsets
   (lambda (lst)
-    ......))
+    (if (null? lst)
+        '( () )
+
+        (append
+         (subsets (cdr lst))
+         (cons-each (car lst) (subsets (cdr lst)))))))
+
+(subsets '(a b c))
