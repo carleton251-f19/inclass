@@ -4,7 +4,8 @@
     (if (> start stop)
         #f
         (cons start
-            (lambda () (gen-lazy-list (+ start 1) stop))))))
+            (lambda () (gen-lazy-list
+                        (+ start 1) stop))))))
 
 (gen-lazy-list 1 3)
 
