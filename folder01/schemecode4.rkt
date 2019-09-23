@@ -9,12 +9,7 @@
                         (+ start 1) stop))))))
 
 (gen-lazy-list 1 3)
-
-
-
-
-
-
-
-
-
+(car (gen-lazy-list 1 3))
+(cdr (gen-lazy-list 1 3))
+((cdr (gen-lazy-list 1 3)))
+(car ((cdr (gen-lazy-list 1 3))))
