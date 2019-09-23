@@ -4,7 +4,7 @@
     (cond ((null? input) '())
           ((list? input)  .............)
           ((equal? old input) new)
-          (else    .......))))
+          (else input))))
 
 (subst 'b 'a '((b c) (b () d)))
 (subst 'b 'a '(b (b c) (b () d)))
