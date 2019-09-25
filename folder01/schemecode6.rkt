@@ -41,6 +41,8 @@
 
 1111111 ;; just to separate output
 
+;; fold-right applies the function to the car of the
+;; list provided and the result from a recursive call
 (fold-right + 0 '(1 2 3))
 (fold-right - 0 '(1 2 3))
 
