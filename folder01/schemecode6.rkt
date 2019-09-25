@@ -29,6 +29,7 @@
 
 ;; "reduce" in Scheme
 ;; (fold-left function init list)
+(#%require rnrs)
 (fold-left + 0 '(1 2 3))
 
 
