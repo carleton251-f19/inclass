@@ -16,3 +16,27 @@
 (define awesome (multc 3))
 (awesome 7)
 ((multc 3) 5)
+
+;;;;;;;;;;;;;;;;;;;;;;
+
+(define add-one
+  (lambda (x)
+    (+ x 1)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
