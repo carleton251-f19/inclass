@@ -47,14 +47,13 @@
 (fold-right - 0 '(1 2 3))
 
 (define my-map
-  ....)
+  (lambda (f lst)
+    (if (null? lst)
+        '()
+        (cons (f (car lst))
+              (my-map f (cdr lst))))))
 
-(define my-fold-left
-  ....)
-
-(define my-fold-right
-  ...)
-
+(my-map add-one '(1 2 8))
 
 
 
