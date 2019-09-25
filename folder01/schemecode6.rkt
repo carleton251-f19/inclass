@@ -39,6 +39,8 @@
 (fold-left cons 5 '(1 2))
 (fold-left - 0 '(1 2 3))
 
+1111111 ;; just to separate output
+
 (fold-right + 0 '(1 2 3))
 (fold-right - 0 '(1 2 3))
 
