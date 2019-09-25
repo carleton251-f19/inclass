@@ -27,6 +27,19 @@
 
 (map add-one '(7 9 1 -6 3.7))
 
+;; "reduce" in Scheme
+;; (fold-left function init list)
+(fold-left + 0 '(1 2 3))
+
+
+
+
+
+
+
+
+
+           
 
 
 
