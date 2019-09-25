@@ -32,6 +32,8 @@
 (#%require rnrs)
 (fold-left + 0 '(1 2 3))
 (fold-left + 81 '(1 2 3))
+(fold-left cons 5 '(1 2))
+
 
 
 
