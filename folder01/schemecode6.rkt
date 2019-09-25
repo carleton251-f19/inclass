@@ -23,6 +23,9 @@
   (lambda (x)
     (+ x 1)))
 
+(add-one 7)
+
+
 
 
 
