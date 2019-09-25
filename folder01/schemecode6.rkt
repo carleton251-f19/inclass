@@ -55,7 +55,13 @@
 
 (my-map add-one '(1 2 8))
 
+(define my-fold-left
+  (lambda (f init lst)
+    (if (null? lst)
+        init
+        (my-fold-left  f   (f init (car lst))  (cdr lst)))))
 
+(my-fold-left + 81 '(1 2 3))
 
 
 
