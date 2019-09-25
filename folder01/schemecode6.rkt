@@ -29,6 +29,10 @@
 
 ;; "reduce" in Scheme
 ;; (fold-left function init list)
+;; fold-left applies the function to the initial value
+;;   and the car of the list; that answer then is the new
+;;   initial value for a recursive call on the cdr of the
+;;   list
 (#%require rnrs)
 (fold-left + 0 '(1 2 3))
 (fold-left + 81 '(1 2 3))
