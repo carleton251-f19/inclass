@@ -61,9 +61,22 @@
         init
         (my-fold-left  f   (f init (car lst))  (cdr lst)))))
 
+  
+
 (my-fold-left + 81 '(1 2 3))
 
+(define my-fold-right
+  (lambda (f init lst)
+    (if (null? lst)
+        init
+        (f   (car lst)   (my-fold-right f init (cdr lst))))))
 
+(my-fold-right - 0 '(1 2 3))
+
+
+
+
+        
 
 
 
