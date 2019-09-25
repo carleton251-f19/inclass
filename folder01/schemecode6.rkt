@@ -13,6 +13,6 @@
     (lambda (b)
       (* a b))))
 
-(define awesome (mult 3))
+(define awesome (multc 3))
 (awesome 7)
 ((multc 3) 5)
