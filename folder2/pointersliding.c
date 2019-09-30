@@ -13,7 +13,7 @@ int main() {
    y = x;
    printf("%i\n",*y);
    printf("%i\n",a);
-   *x = 12;
+   *x = 15;
    printf("%i\n",*x);
    printf("%i\n",*y);
    printf("%i\n",a);
