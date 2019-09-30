@@ -8,7 +8,7 @@ struct Wrapper {
 
 int main() {
    //(struct Wrapper *)   w1 = malloc(sizeof(struct Wrapper));
-   (struct Wrapper *)   w1 = malloc(sizeof(struct Wrapper));
+   struct Wrapper *w1 = malloc(sizeof(struct Wrapper));
    struct Wrapper *w2 = malloc(sizeof(struct Wrapper));
    (*w1).value = 1;
    w2 = w1;
