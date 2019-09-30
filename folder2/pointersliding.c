@@ -8,5 +8,5 @@ int main() {
    //*x = 42;
    //*x = 3;
    x = &a;
-   
+   printf("it is it, really: %i\n", *x);
 }
