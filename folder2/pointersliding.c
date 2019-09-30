@@ -9,4 +9,12 @@ int main() {
    //*x = 3;
    x = &a;
    printf("it is it, really: %i\n", *x);
+   int *y;
+   y = x;
+   printf("%i\n",*y);
+   printf("%i\n",a);
+   *x = 12;
+   printf("%i\n",*x);
+   printf("%i\n",*y);
+   printf("%i\n",a);
 }
