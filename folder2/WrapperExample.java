@@ -14,6 +14,6 @@ public class WrapperExample {
       w2 = w1;
       System.out.println(w1.value + " " + w2.value);
       w2.value = 2;
-      System.out.println(w1.value + " " + w2.value);
+      //System.out.println(w1.value + " " + w2.value);
    }
 }
