@@ -5,4 +5,5 @@ int main() {
    int *x;
    printf("It points here? %p\n", x);
    x = (int *)2; // memory location 2(????!!)
+   *x = 42;
 }
