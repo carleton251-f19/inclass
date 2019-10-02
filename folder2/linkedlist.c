@@ -3,5 +3,5 @@
 #include "linkedlist.h"
 
 int main() {
-   dave *list = NULL;
+   LinkedList *list = NULL;
 }
