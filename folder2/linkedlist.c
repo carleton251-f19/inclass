@@ -4,5 +4,5 @@
 
 int main() {
    LinkedList *list = NULL;
-   *list = (LinkedList)7;
+   *list = (LinkedList*)7;
 }
