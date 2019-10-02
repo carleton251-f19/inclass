@@ -3,6 +3,6 @@ struct LinkedList {
    struct LinkedList *next;
 };
 
-typedef    struct LinkedList     dave;
+typedef    struct LinkedList     LinkedList;
 
 
