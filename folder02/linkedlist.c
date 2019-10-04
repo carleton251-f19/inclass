@@ -4,5 +4,7 @@
 
 int main() {
    LinkedList *list = NULL;
-   *list = (LinkedList)7;
+   for (int i=0; i < 5; i++) {
+      list = insertFrontLL(list, i);
+   }
 }
