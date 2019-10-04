@@ -17,6 +17,15 @@ void displayLL(LinkedList *list) {
    }
 }
 
+void cleanupLL(LinkedList *list) {
+   LinkedList *cur = list;
+   while (cur != NULL) {
+      LinkedList *follow = (*cur).next;
+      free(cur);
+      cur = (*cur).next;
+   }
+}
+
 int main() {
    LinkedList *list = NULL;
    for (int i=0; i < 5; i++) {
