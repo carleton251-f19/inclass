@@ -11,7 +11,7 @@ int main() {
    myname[4] = (char)0;
    myname[4] = '\0';
    //badbadbad myname[4] = '0'
-   printf("my name is %s",myname);
+   printf("my name is %s\n",myname);
 }
 
 
