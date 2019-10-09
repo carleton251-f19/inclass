@@ -22,6 +22,7 @@ int main() {
    int *others = malloc(3*sizeof(int));
    others[0] = 9;
    others[1] = 10;
+   others[20] = 8;
    printf("another %i %i\n",others[0],
                             others[1]);
    printf("another %i %i\n",*others,
