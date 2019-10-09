@@ -10,4 +10,5 @@ int main() {
    // C lets you think about an array
    // name as a pointer
    printf("a value %i\n",*nums);
+   printf("a value %i\n",*(nums+1);
 }
