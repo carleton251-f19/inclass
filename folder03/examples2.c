@@ -21,6 +21,7 @@ int main() {
    char *namecopy = malloc(8*sizeof(char));
    strcpy(namecopy, yourname);
    printf("my name is %s\n",namecopy);
+   free(namecopy);
 
 
 }
