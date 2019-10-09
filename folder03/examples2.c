@@ -12,6 +12,8 @@ int main() {
    myname[4] = '\0';
    //badbadbad myname[4] = '0'
    printf("my name is %s\n",myname);
+
+   char *yourname = "myclass";
 }
 
 
