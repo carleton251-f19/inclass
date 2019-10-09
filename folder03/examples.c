@@ -14,8 +14,8 @@ int main() {
    printf("a value %i\n",*(nums+1));
    printf("a value %p\n",nums);
    printf("a value %p\n",nums+1);
-   nums[8] = 19;
    int i = 3+5;
+   nums[i] = 19;
    printf("a value %i\n",nums[i]);
 
    // Array in heap
