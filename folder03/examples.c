@@ -16,4 +16,17 @@ int main() {
    nums[8] = 19;
    int i = 3+5;
    printf("a value %i\n",nums[i]);
+
+   // Array in heap
+   int *others = malloc(3*sizeof(int));
+   others[0] = 9;
+   others[1] = 10;
+   printf("another %i %i\n",others[0],others[1]);
+   printf("another %i %i\n",*others,
+                            *(others+1));
+
 }
+
+
+
+
