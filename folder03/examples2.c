@@ -14,6 +14,7 @@ int main() {
    printf("my name is %s\n",myname);
 
    char *yourname = "myclass";
+   printf("my name is %s\n",yourname);
 }
 
 
