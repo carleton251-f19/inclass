@@ -11,4 +11,5 @@ int main() {
    // name as a pointer
    printf("a value %i\n",*nums);
    printf("a value %i\n",*(nums+1));
+   printf("a value %p\n",nums);
 }
