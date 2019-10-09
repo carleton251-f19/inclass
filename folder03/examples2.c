@@ -14,9 +14,18 @@ int main() {
    printf("my name is %s\n",myname);
 
    char *yourname = "myclass";
-   yourname[0] = 'h';
+   //yourname[0] = 'h';
    printf("my name is %s\n",yourname);
+
+   char *namecopy = malloc(8*sizeof(char));
+   strcpy(namecopy, yourname);
+   printf("my name is %s\n",namecopy);
+
+
 }
+
+
+
 
 
 
