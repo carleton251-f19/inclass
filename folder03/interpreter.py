@@ -1,12 +1,9 @@
 inpfile = open('myprog.greet','r')
-outfile = open('myprog.bash','w')
 
 for line in inpfile:
-    (command, number) = line.split()
-    outfile.write('for i in {1..' + \
-                  str(number) + '}\n')
-    outfile.write('do\n')
-    outfile.write('  echo "' + command + '"\n')
-    outfile.write('done\n')
+    (command, numberstr) = line.split()
+    number = int(number)
+    for i in range(number):
+        print(command)
+
 inpfile.close()
-outfile.close()
