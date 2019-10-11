@@ -7,6 +7,6 @@ for line in inpfile:
                   str(number) + '}\n')
     outfile.write('do\n')
     outfile.write('  echo "' + command + '"\n')
-    outfile.write('done'\n)
+    outfile.write('done\n')
 inpfile.close()
 outfile.close()
