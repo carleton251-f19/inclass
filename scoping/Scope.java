@@ -12,7 +12,7 @@ public class Scope {
     }
 
     public static void main(String[] args) {
-        fun2();
-        //fun1();
+       //fun2();
+       fun1();
     }
 }
