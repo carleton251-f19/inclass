@@ -11,5 +11,5 @@ function fun2
     echo $x;
 }
 
-fun2
+#fun2
 fun1
