@@ -9,5 +9,5 @@ sub fun2 {
     print "$x\n";
 }
 
-fun2();
+#fun2();
 fun1();
