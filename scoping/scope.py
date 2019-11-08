@@ -5,7 +5,7 @@ def fun1():
     fun2()
 
 def fun2():
-    print(x)
+    print('value is ', x)
 
 #fun2()
 fun1()
