@@ -7,5 +7,5 @@ def fun1():
 def fun2():
     print(x)
 
-fun2()
-#fun1()
+#fun2()
+fun1()
