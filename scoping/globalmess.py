@@ -1,8 +1,8 @@
 x = 8
 
 def fun1():
-    global x
     x = 6
+    global x
     print(x)
 
 fun1()
