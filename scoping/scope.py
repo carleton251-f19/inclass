@@ -8,4 +8,4 @@ def fun2():
     print(x)
 
 fun2()
-fun1()
+#fun1()
