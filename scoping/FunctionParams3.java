@@ -1,5 +1,4 @@
-import java.util.BiFunction;
-
+import java.function.BiFunction;
 
 public class FunctionParams3 {
 
