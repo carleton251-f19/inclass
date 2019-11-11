@@ -1,3 +1,5 @@
+import java.util.BiFunction
+
 public class FunctionParams3 {
 
    public static void evaluate(BiFunction fobj, int x, int y) {
