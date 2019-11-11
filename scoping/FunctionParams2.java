@@ -14,7 +14,7 @@ public class FunctionParams2 {
          public int f(int x, int y) {
             return x + y;
          }
-      }
+      };
       evaluate(add, 5, 3);
    }
 
