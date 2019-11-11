@@ -2,7 +2,7 @@ interface Function {
    public int f(int x, int y);
 }
 
-public class FunctionParams2 {
+public class FunctionParams3 {
 
    public static void evaluate(Function fobj, int x, int y) {
       System.out.println(fobj.f(x,y));
