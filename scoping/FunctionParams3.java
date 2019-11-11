@@ -11,5 +11,4 @@ public class FunctionParams3 {
       BiFunction<Integer,Integer,Integer> add = (x,y) -> x + y;
       evaluate(add, 5, 3);
    }
-
 }
