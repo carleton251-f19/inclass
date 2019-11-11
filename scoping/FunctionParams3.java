@@ -10,11 +10,7 @@ public class FunctionParams2 {
 
    public static void main(String[] args) {
 
-      Function add = new Function() {
-         public int f(int x, int y) {
-            return x + y;
-         }
-      };
+      Function add = (x,y) -> x + y;
       evaluate(add, 5, 3);
    }
 
