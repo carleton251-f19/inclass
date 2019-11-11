@@ -1,6 +1,6 @@
-interface Function {
-   public int f(int x, int y);
-}
+// interface Function {
+//    public int f(int x, int y);
+// }
 
 public class FunctionParams3 {
 
