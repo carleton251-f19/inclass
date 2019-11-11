@@ -8,6 +8,12 @@ class AdderThing implements Function {
    }
 }
 
+class MultiplierThing implements Function {
+   public int f(int x, int y) {
+      return x * y;
+   }
+}
+
 public class FunctionParams {
 
    public static void evaluate(Function fobj, int x, int y) {
@@ -18,6 +24,8 @@ public class FunctionParams {
 
       AdderThing add = new AdderThing();
       evaluate(add, 5, 3);
+      MultiplierThing mult = new MultiplierThing();
+      evaluate(mult, 5, 3);
    }
 
 }
