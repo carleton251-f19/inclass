@@ -2,7 +2,7 @@
 //    public int f(int x, int y);
 // }
 
-private class AdderThing { // implements Function {
+class AdderThing { // implements Function {
    public int f(int x, int y) {
       return x + y;
    }
