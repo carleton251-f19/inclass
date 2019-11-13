@@ -18,5 +18,5 @@ int doitnone(void (*f)(), int x, int y) {
 
 int main() {
    printf("%i\n", doit(add, 3, 5));
-   doitnone(printme);
+   doitnone(printme, 10000, -42);
 }
