@@ -14,6 +14,7 @@ int doit(int (*f)(int,int), int x, int y) {
 
 int doitnone(void (*f)(), int x, int y) {
    (*f)();
+   return 37;
 }
 
 int main() {
