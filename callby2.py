@@ -1,5 +1,5 @@
 def foo(x):
-    x = [12]
+    x = [6]
 
 # def moo(t):
 #    t.x = 6;
