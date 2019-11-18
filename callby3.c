@@ -11,7 +11,7 @@ void foo(Thing *t) {
    t->x = 6;
    Thing *u = malloc(sizeof(Thing));
    u->x = 7;
-   //t = u;
+   t = u;
 }
 
 int main() {
