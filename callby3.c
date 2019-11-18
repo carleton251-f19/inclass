@@ -7,17 +7,17 @@ struct Thing {
 
 typedef struct Thing Thing;
 
-void foo(Thing t) {
-   t.x = 6;
-   Thing u;
-   u.x = 7;
-   t = u;
+void foo(Thing *t) {
+   t->x = 6;
+   Thing *u = malloc(sizeof(Thing));
+   u->x = 7;
+   //t = u;
 }
 
 int main() {
-   Thing a;
-   a.x = 5;
-   printf("%i\n",a.x);
+   Thing *a = malloc(sizeof(Thing));
+   a->x = 5;
+   printf("%i\n",a->x);
    foo(a);
-   printf("%i\n",a.x);
+   printf("%i\n",a->x);
 }
